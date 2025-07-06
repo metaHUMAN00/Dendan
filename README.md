@@ -1,5 +1,10 @@
 # Dendan
 Dendan is a WIP water treatement plant monitoring software. Currently the monitoring is based solely on WQIs for the water quality and PCIs for the treatment performance.
+Make sure to install all of the following libraries before running any script:
+pip install pandas
+pip install numpy
+pip install datetime
+pip install matplotlib
 # WQI Usage
 WQI_calc script requires parsing .csv files in the command line as arguments ie : python WQI_calc.py File_containing_water_quality_parameters_NumberofMonth_Year.csv.
   The .csv file must be structured as following:
